@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Metropolis 100';
+    src: local('Metropolis Thin'), url('Metropolis-Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 100 Italic';
+    src: local('Metropolis Thin Italic'), url('Metropolis-ThinItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 200';
+    src: local('Metropolis Extra Light'), url('Metropolis-ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 200 Italic';
+    src: local('Metropolis Extra Light Italic'), url('Metropolis-ExtraLightItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 300';
+    src: local('Metropolis Light'), url('Metropolis-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 300 Italic';
+    src: local('Metropolis Light Italic'), url('Metropolis-LightItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 400';
+    src: local('Metropolis Regular'), url('Metropolis-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 400 Italic';
+    src: local('Metropolis Regular Italic'), url('Metropolis-RegularItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 500';
+    src: local('Metropolis Medium'), url('Metropolis-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 500 Italic';
+    src: local('Metropolis Medium Italic'), url('Metropolis-MediumItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 600';
+    src: local('Metropolis Semi Bold'), url('Metropolis-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 600 Italic';
+    src: local('Metropolis Semi Bold Italic'), url('Metropolis-SemiBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 700';
+    src: local('Metropolis Bold'), url('Metropolis-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 700 Italic';
+    src: local('Metropolis Bold Italic'), url('Metropolis-BoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 800';
+    src: local('Metropolis Extra Bold'), url('Metropolis-ExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 800 Italic';
+    src: local('Metropolis Extra Bold Italic'), url('Metropolis-ExtraBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 900';
+    src: local('Metropolis Black'), url('Metropolis-Black.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metropolis 900 Italic';
+    src: local('Metropolis Black Italic'), url('Metropolis-BlackItalic.woff') format('woff');
+}
+
+@media(max-width: 576px){
+    *{
+        font-family: 'Metropolis 400';
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    h1, h2, h5, h6{
+        color: #363d47;
+        line-height: 1.2;
+        margin-bottom: 8px;
+    }
+    h6{
+        font-size: 16px;
+        padding-bottom: 8px;
+    }
+    p{
+        color: #69707a;
+        line-height: 1.5;
+        margin-bottom: 16px;
+    }
+    .button{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        padding: 96px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .text-center, .text-center2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .container .text-center{
+        margin-bottom: 96px;
+    }
+    .container .text-center .blue-text{
+        background-color: #dae7fb;
+        color: #0061f2;
+        font-size: 12px;
+        padding: 6px 12px;
+        border-radius: 50rem;
+        margin-bottom: 16px;
+    }
+    .container .text-center h2{
+        font-size: 20.942px;
+        margin-bottom: 8px;
+    }
+    .container .text-center p{
+        font-size: 17.6px;
+    }
+    .container .text-center2{
+        margin-bottom: 40px;
+    }
+    .container .text-center2 .light-text{
+        color: #c5ccd6;
+        font-family: 'Metropolis 700';
+        font-size: calc(26px + 4.5vw);
+    }
+    .container .text-center2 h5{
+        font-size: 17.6px;
+    }
+    .container .text-center2 p{
+        font-size: 16px;
+    }
+
+    .container .demos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .demos .demo{
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .demos .demo .image{
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .container .demos .demo .image img{
+        width: 100%;
+    }
+    section svg{
+        vertical-align: bottom;
+    }
+
+    #first-section h1{
+        font-size: 40px;
+    }
+    #first-section p{
+        line-height: 1.5;
+        font-size: 18.4px;
+        padding-bottom: 24px;
+    }
+    #first-section .button{
+        width: 100%;
+        padding: 18px 24px;
+        border-radius: 8px;
+    }
+    #first-section .button.explore{
+        background-color: #0061f2;
+        color: #ffffff;
+        margin-bottom: 16px;
+    }
+    #first-section .button.explore i{
+        margin-left: 8px;
+    }
+    #first-section .button.doc{
+        background-color: #dae7fb;
+        color:#0061f2;
+    }
+    #landing-pages, #header-examples{
+        background-color: #f2f6fc;
+    }
+    #inner-pages .container .list{
+        border: 1px solid #00000022;
+        border-radius: 5.6px;
+        margin-bottom: 40px;
+        width: calc(100vw - 80px);
+    }
+    #inner-pages .container .list .list-item{
+        display: flex;
+        justify-content: space-between;
+        color: #212832;
+        font-size: 14px;
+        padding: 16px;
+        width: 100%;
+    }
+    #inner-pages .container .list .list-item i{
+        color: #c5ccd6;
+    }
+    #inner-pages .container .list hr{
+        border: 0.1px solid #00000022;
+    }
+    #last-section .button{
+        background-color: #0061f2;
+        color: #ffffff;
+        padding: 14px 18px;
+        border-radius: 5.6px;
+    }
+}
